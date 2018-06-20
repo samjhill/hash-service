@@ -52,7 +52,7 @@ app.get('/', function(req, res){
     res.send('Thanks for looking at my project.')
 })
 
-app.get('/healthcheck', function(){
+app.get('/healthcheck', function(req, res){
     res.send('ok')
 })
 
