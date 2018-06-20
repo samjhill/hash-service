@@ -48,12 +48,12 @@ app.post('/messages', function (req, res) {
     res.send({'digest': hashedMessage})
 })
 
-app.get('/', function(){
-    res.send('Thanks for looking at my project.');
-});
+app.get('/', function(req, res){
+    res.send('Thanks for looking at my project.')
+})
 
 app.get('/healthcheck', function(){
-    res.send('ok');
+    res.send('ok')
 })
 
 app.listen(port, () => console.log(`Hashing service running on port ${port}`))

@@ -1,7 +1,7 @@
 {
   "name": "hash-service",
   "version": "1.0.0",
-  "description": "problem 1 for Paxos - Sam Hill",
+  "description": "Sam Hill",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
